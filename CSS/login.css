@@ -1,0 +1,203 @@
+/* Reset & Cài đặt chung */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    color: #1a1a1a;
+}
+
+/* --- Login Header --- */
+.login-header {
+    background-color: #003580; /* Màu xanh chuẩn Booking */
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.header-container {
+    max-width: 1024px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: white;
+}
+
+.flag img {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.help-icon {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* --- Main Login Box --- */
+.login-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+.login-box {
+    width: 100%;
+    max-width: 400px; /* Độ rộng form chuẩn */
+    text-align: left;
+    padding: 0 10px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.subtitle {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+/* Input Styles */
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #868686;
+    border-radius: 4px;
+    font-size: 14px;
+    outline-color: #006ce4;
+}
+
+.btn-continue {
+    width: 100%;
+    background-color: #006ce4; /* Màu xanh nút bấm */
+    color: white;
+    border: none;
+    padding: 14px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.btn-continue:hover {
+    background-color: #005bbd;
+}
+
+/* Divider */
+.divider {
+    margin: 30px 0;
+    position: relative;
+    text-align: center;
+}
+
+.divider::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #e7e7e7;
+    z-index: 1;
+}
+
+.divider span {
+    background-color: #fff;
+    padding: 0 15px;
+    font-size: 14px;
+    color: #474747;
+    position: relative;
+    z-index: 2;
+}
+
+/* Social Buttons */
+.social-login {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 40px;
+}
+
+.social-btn {
+    width: 70px;
+    height: 70px;
+    background: white;
+    border: 1px solid #e7e7e7;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.social-btn:hover {
+    background-color: #f2f2f2;
+}
+
+.social-btn img {
+    width: 28px;
+}
+
+.social-btn i {
+    font-size: 30px;
+}
+
+/* Footer trong Login */
+.login-footer {
+    text-align: center;
+    border-top: 1px solid #e7e7e7;
+    padding-top: 30px;
+    font-size: 12px;
+    color: #474747;
+    line-height: 1.8;
+}
+
+.login-footer a {
+    color: #006ce4;
+    text-decoration: none;
+}
+
+.login-footer a:hover {
+    text-decoration: underline;
+}
+
+.login-footer p:nth-child(2),
+.login-footer p:nth-child(3) {
+    margin-top: 10px;
+}

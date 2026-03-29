@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/trang3.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <div class="top-bar">
+                <div class="logo">
+                    Booking.com
+                </div>
+                <div class="top-actions">
+                    <span class="currency">VND</span>
+                    <span class="flag"><img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Flag_of_Vietnam.svg" alt="VN Flag"></span>
+                    <span class="help-icon"><i class="fa-regular fa-circle-question"></i></span>
+                    <button class="btn-secondary">Đăng ký</button>
+                    <button class="btn-secondary">Đăng nhập</button>
+                </div>
+            </div>
+
+            <nav class="nav-bar">
+                <ul>
+                    <li><a href="#"><i class="fa-solid fa-bed"></i> Lưu trú</a></li>
+                    <li><a href="#"><i class="fa-solid fa-plane"></i> Chuyến bay</a></li>
+                    <li><a href="#"><i class="fa-solid fa-earth-americas"></i> Chuyến bay + Khách sạn</a></li>
+                    <li><a href="#"><i class="fa-solid fa-car"></i> Thuê xe</a></li>
+                    <li class="active-pill"><a href="#"><i class="fa-solid fa-museum"></i> Hoạt động</a></li>
+                    <li><a href="#"><i class="fa-solid fa-taxi"></i> Taxi sân bay</a></li>
+                </ul>
+            </nav>
+
+            <div class="hero-search-section">
+                <h1>Tìm chỗ nghỉ tiếp theo của bạn</h1>
+                <p>Tìm ưu đãi khách sạn, chỗ nghỉ dạng nhà và nhiều hơn nữa...</p>
+                
+                <div class="search-box">
+                    <div class="input-group location">
+                        <i class="fa-solid fa-magnifying-glass icon-input"></i>
+                        <input type="text" placeholder="Hà Nội" value="Hà Nội">
+                        <span class="clear-input">&times;</span>
+                    </div>
+
+                    <div class="input-group date">
+                        <i class="fa-regular fa-calendar icon-input"></i>
+                        <div class="date-text">
+                            <span>Ngày</span><br>
+                            <span class="placeholder">Chọn ngày</span>
+                        </div>
+                    </div>
+
+                    <div class="input-group guests">
+                        <i class="fa-solid fa-user icon-input"></i>
+                        <div class="guest-text">
+                            <span>1 người lớn · 0 trẻ em · 1 phòng</span>
+                        </div>
+                         </div>
+
+                    <button class="btn-search">Tìm</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content container">
+    <aside class="sidebar">
+        <div class="filter-group">
+            <h3>Lọc theo:</h3>
+            <div class="filter-section">
+                <h4>Hạng mục <i class="fa-solid fa-chevron-down"></i></h4>
+                <label><input type="checkbox"> Tour</label>
+                <label><input type="checkbox"> Thiên nhiên & ngoài trời</label>
+                <label><input type="checkbox"> Bảo tàng, nghệ thuật & văn hóa</label>
+                <label><input type="checkbox"> Hoạt động giải trí & vé</label>
+                <label><input type="checkbox"> Ăn uống</label>
+            </div>
+            <div class="filter-section">
+                <h4>Tiêu chí đi kèm</h4>
+                <label><input type="checkbox"> Miễn phí hủy</label>
+                <label><input type="checkbox"> Không phải xếp hàng</label>
+            </div>
+            <div class="filter-section">
+                <h4>Điểm đánh giá</h4>
+                <label><input type="radio" name="rating"> Từ 4.5 trở lên</label>
+                <label><input type="radio" name="rating"> Từ 4 trở lên</label>
+            </div>
+        </div>
+    </aside>
+
+    <section class="content-area">
+        <div class="content-header">
+            <h2>Điểm tham quan ở Hà Nội</h2>
+            <div class="sort-dropdown">
+                Sắp xếp theo: <strong>Đề xuất của chúng tôi</strong> <i class="fa-solid fa-arrow-up-wide-short"></i>
+            </div>
+        </div>
+
+        <div class="promo-section">
+            <div class="promo-title">
+                <i class="fa-solid fa-percent"></i> Ưu đãi và giảm giá
+            </div>
+            <div class="promo-grid">
+                <div class="promo-card">
+                    <img src="https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=300&q=80" alt="Incense Village">
+                    <span class="badge">Giảm 24%</span>
+                    <div class="promo-info">
+                        <h3>Incense Village, Conical Hat, Lacquer Art, SMALL GROUP</h3>
+                        <p class="price">Từ <span>€ 1,16</span> <del>€ 1,52</del></p>
+                    </div>
+                </div>
+                <div class="promo-card">
+                    <img src="https://images.unsplash.com/photo-1552432552-06c098923056?auto=format&fit=crop&w=300&q=80" alt="Halong Bay">
+                    <span class="badge">Giảm 22%</span>
+                    <div class="promo-info">
+                        <h3>Classic Halong Bay 2D1N Cruise from Hanoi with Balcony</h3>
+                        <p class="price">Từ <span>US$331,50</span> <del>US$425</del></p>
+                    </div>
+                </div>
+                <div class="promo-card">
+                    <img src="https://images.unsplash.com/photo-1599708153386-62e249769352?auto=format&fit=crop&w=300&q=80" alt="Water Puppet">
+                    <span class="badge">Giảm 12%</span>
+                    <div class="promo-info">
+                        <h3>Thang Long Water Puppet Show Entrance Ticket</h3>
+                        <p class="price">Từ <span>US$7,92</span> <del>US$9</del></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="tour-list">
+            <div class="tour-item">
+                <div class="tour-image">
+                    <img src="https://images.unsplash.com/photo-1599708153386-62e249769352?auto=format&fit=crop&w=400&q=80" alt="Water Puppet">
+                </div>
+                <div class="tour-details">
+                    <div class="tour-main-info">
+                        <div class="tour-title-row">
+                            <h3>Buổi biểu diễn múa rối nước Thăng Long</h3>
+                            <div class="rating-box">
+                                <span>Tuyệt vời <br><small>1283 đánh giá</small></span>
+                                <div class="score">4,5 <i class="fa-solid fa-star"></i></div>
+                            </div>
+                        </div>
+                        <p class="location">Hà Nội <span class="best-seller">#1 Bán chạy nhất</span></p>
+                        <p class="description">Trải nghiệm này sẽ mang đến cho bạn cơ hội khám phá nghệ thuật múa rối nước xa xưa ở Hà Nội...</p>
+                        <p class="free-cancel"><i class="fa-solid fa-check"></i> Có lựa chọn hủy miễn phí</p>
+                    </div>
+                    <div class="tour-price-action">
+                        <div class="price-info">
+                            <span class="price-from">Từ</span>
+                            <span class="main-price">€ 5</span>
+                            <span class="availability">Mở cửa từ 2 thg 1</span>
+                        </div>
+                        <button class="btn-view">Xem chỗ trống <i class="fa-solid fa-chevron-right"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tour-item">
+                <div class="tour-image">
+                    <img src="https://images.unsplash.com/photo-1504450758481-7338eba7524a?auto=format&fit=crop&w=400&q=80" alt="Ninh Binh">
+                </div>
+                <div class="tour-details">
+                    <div class="tour-main-info">
+                        <div class="tour-title-row">
+                            <h3>Ninh Binh - Hoa Lu - Mua Cave - Tam Coc 1 Day Tour</h3>
+                            <div class="rating-box">
+                                <span>Tuyệt vời <br><small>473 đánh giá</small></span>
+                                <div class="score">4,5 <i class="fa-solid fa-star"></i></div>
+                            </div>
+                        </div>
+                        <p class="location">Hà Nội <span class="best-seller">#2 Bán chạy nhất</span></p>
+                        <p class="duration"><i class="fa-regular fa-clock"></i> Thời gian: 10 giờ</p>
+                        <p class="free-cancel"><i class="fa-solid fa-check"></i> Có lựa chọn hủy miễn phí</p>
+                    </div>
+                    <div class="tour-price-action">
+                        <div class="price-info">
+                            <span class="price-from">Từ</span>
+                            <span class="main-price">US$39</span>
+                            <span class="availability">Mở cửa từ ngày mai</span>
+                        </div>
+                        <button class="btn-view">Xem chỗ trống <i class="fa-solid fa-chevron-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+    <footer class="footer-wrapper">
+        <div class="footer-links">
+            <div class="footer-column">
+                <h3>Hỗ trợ</h3>
+                <ul>
+                    <li><a href="#">Quản lí các chuyến đi của bạn</a></li>
+                    <li><a href="#">Trung tâm trợ giúp điểm tham quan</a></li>
+                    <li><a href="#">Trung tâm thông tin bảo mật</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>Khám phá thêm</h3>
+                <ul>
+                    <li><a href="#">Chương trình khách hàng thân thiết Genius</a></li>
+                    <li><a href="#">Ưu đãi theo mùa và dịp lễ</a></li>
+                    <li><a href="#">Bài viết về du lịch</a></li>
+                    <li><a href="#">Booking.com dành cho Doanh Nghiệp</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>Điều khoản và cài đặt</h3>
+                <ul>
+                    <li><a href="#">Chính sách Bảo mật</a></li>
+                    <li><a href="#">Điều khoản dịch vụ</a></li>
+                    <li><a href="#">Chính sách về Khả năng tiếp cận</a></li>
+                    <li><a href="#">Tranh chấp đối tác</a></li>
+                    <li><a href="#">Chính sách chống Nô lệ Hiện đại</a></li>
+                    <li><a href="#">Chính sách về Quyền con người</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>Dành cho đối tác</h3>
+                <ul>
+                    <li><a href="#">Đăng nhập vào trang Extranet</a></li>
+                    <li><a href="#">Trợ giúp đối tác</a></li>
+                    <li><a href="#">Đăng chỗ nghỉ của Quý vị</a></li>
+                    <li><a href="#">Trở thành đối tác phân phối</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>Về chúng tôi</h3>
+                <ul>
+                    <li><a href="#">Về Booking.com</a></li>
+                    <li><a href="#">Chúng tôi hoạt động như thế nào</a></li>
+                    <li><a href="#">Du lịch bền vững</a></li>
+                    <li><a href="#">Truyền thông</a></li>
+                    <li><a href="#">Cơ hội việc làm</a></li>
+                    <li><a href="#">Quan hệ cổ đông</a></li>
+                    <li><a href="#">Liên hệ công ty</a></li>
+                    <li><a href="#">Hướng dẫn và cáo báo nội dung</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-settings">
+            <div class="flag-vn"></div> 
+            <span class="currency-text">VND</span>
+        </div>
+
+        <div class="footer-bottom">
+            <p class="copyright-text">
+                Booking.com là một phần của Booking Holdings Inc., tập đoàn đứng đầu thế giới về du lịch trực tuyến và các dịch vụ liên quan.<br>
+                Bản quyền © 1996 - 2025 Booking.com™. Bảo lưu mọi quyền.
+            </p>
+            
+            <div class="partner-logos">
+                <div class="logo-placeholder booking">Booking.com</div>
+                <div class="logo-placeholder priceline">priceline</div>
+                <div class="logo-placeholder kayak">KAYAK</div>
+                <div class="logo-placeholder agoda">agoda</div>
+                <div class="logo-placeholder opentable">OpenTable</div>
+            </div>
+        </div>
+    </footer>  
+
+
+</body>
+</html>
